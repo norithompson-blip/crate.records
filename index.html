@@ -104,7 +104,10 @@
     <h2>Submit Your Music</h2>
     <p>Drop your track, link, or suggestion below.</p>
 
-    <form action="#" method="POST">
+    <form action="https://formsubmit.co/profitexproject@gmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://craterecords.github.io/crate.records/">
+      
       <input type="text" name="name" placeholder="Your Name (optional)" />
       <input type="text" name="song" placeholder="Artist / Song Name" required />
       <input type="url" name="link" placeholder="Link to Song (optional)" />
